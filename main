@@ -2,7 +2,7 @@ import json
 import requests
 
 webhook_url = 'https://hooks.slack.com/services/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'
-slack_data = {'text': "Sup! We're hacking shit together @dirtymanager :spaghetti: again!!!"}
+slack_data = {'text': "Sup! We're hacking shit together @dirtymanager :spaghetti: again!! and again!"}
 
 response = requests.post(
     webhook_url, data=json.dumps(slack_data),
